@@ -34,7 +34,7 @@ class ProductManager {
   }
   
   const productManager = new ProductManager();
-  console.log(productManager.getProducts()); // []
+  console.log(productManager.getProducts());
   
   productManager.addProduct({
     title: "producto prueba",
