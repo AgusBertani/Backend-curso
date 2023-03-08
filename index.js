@@ -45,7 +45,7 @@ class ProductManager {
     stock: 25
   });
   
-  console.log(productManager.getProducts()); // [{ title: "producto prueba", description: "este es un producto prueba", price: 200, thumbnail: "sin imagen", code: "abc123", stock: 25, id: 1 }]
+  console.log(productManager.getProducts());
   
   try {
     const product = productManager.getProductById(2);
